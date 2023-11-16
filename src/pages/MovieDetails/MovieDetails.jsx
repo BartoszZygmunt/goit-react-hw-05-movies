@@ -102,7 +102,6 @@ const MovieDetails = () => {
           </MovieNavLink>
         </MovieNavItem>
       </MovieNav>
-      <hr />
 
       <Suspense fallback={<Loader />}>
         <Outlet />

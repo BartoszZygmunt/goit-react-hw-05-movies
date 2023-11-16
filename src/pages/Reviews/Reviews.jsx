@@ -56,7 +56,7 @@ const Reviews = () => {
           ))}
         </ReviewsList>
       ) : (
-        <p>We don't have any reviews for this movie.</p>
+        <p>Reviews for this movie don't exist!</p>
       )}
     </div>
   );
